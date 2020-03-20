@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.transitionFunctions{
+  width: 100px;
+  background-color: #DDAAAA;
+  border: #997777 solid 2px;
+  transition: translate();
+  transition-duration: 2s;
+}
+.transitionFunctions:hover{
+  transform: translate(300px, 0)
+}
+
+.container{
+  width:400px;
+  border: black solid 2px;
+}
+
+#ease{
+  transition-timing-function: ease
+}
+
+#easein{
+  transition-timing-function: ease-in
+}
+
+#easeout{
+  transition-timing-function: ease-out
+}
+
+#easeinout{
+  transition-timing-function: ease-in-out
+}
+
+#linear{
+  transition-timing-function: linear
+}
+
+#stepstart{
+  transition-timing-function: step-start
+}
+
+#stepend{
+  transition-timing-function: step-end
+}
