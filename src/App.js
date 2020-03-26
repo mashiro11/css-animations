@@ -4,7 +4,7 @@ import './App.css';
 import Basics from './components/Basics'
 import Steps from './components/Steps'
 import Transform from './components/Transform'
-
+import Cube from './components/Cube'
 function App() {
   return (
     <div>
@@ -16,6 +16,8 @@ function App() {
       <Steps />
       <h2>Transform</h2>
       <Transform />
+      <h2>3D transform</h2>
+      <Cube />
     </div>
   );
 }
