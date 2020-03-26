@@ -55,3 +55,32 @@ code {
 #stepend{
   transition-timing-function: step-end
 }
+
+.transform{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: #005599;
+  color: white;
+  margin: 15px auto;
+  transition: transform 2s
+  /*transform-origin: __ __ ; left right top bottom, px %*/
+}
+
+#scale:hover{
+  transform: scale(2,2);
+}
+
+#translate:hover{
+  transform: translate(100px, 100px)
+  /*translateX(px), translateY(px)*/
+}
+
+#rotate:hover{
+  transform: rotate(360deg)
+}
+
+#skew:hover{
+  transform: skew(30deg, 30deg)
+}
